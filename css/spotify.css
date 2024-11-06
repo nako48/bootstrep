@@ -1,0 +1,99 @@
+        body {
+            background: linear-gradient(135deg, #6e7f7a, #2c3e50);
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-title {
+            color: #f39c12; /* Emas cerah untuk menarik perhatian */
+            font-weight: bold;
+        }
+
+        .card-title:hover {
+            color: #e67e22; /* Warna oranye cerah saat hover */
+        }
+
+        .nav-tabs .nav-link {
+            background-color: #34495e;
+            border: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: #f39c12;
+            color: white;
+        }
+
+        .nav-tabs .nav-link:hover {
+            background-color: #e67e22;
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: #f39c12;
+            border-color: #f39c12;
+        }
+
+        .btn-primary:hover {
+            background-color: #e67e22;
+            border-color: #e67e22;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #f39c12;
+        }
+
+        .section-description {
+            color: #bdc3c7; /* Abu-abu terang untuk teks deskripsi */
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: #1abc9c; /* Hijau muda untuk link */
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #16a085; /* Hijau lebih gelap saat hover */
+        }
+
+        #result, #massResult {
+            display: none;
+            margin-top: 30px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 14px;
+            color: #bdc3c7; /* Abu-abu terang untuk footer */
+        }
+
+        /* Styling untuk label */
+        .label-text {
+            color: #9b59b6; /* Ungu terang untuk teks label */
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Styling untuk hasil download */
+        .result-text {
+            color: #2c3e50; /* Warna biru gelap agar kontras dengan latar belakang putih form */
+        }
+
+        /* Styling untuk contact dan donate */
+        .contact-text, .donate-text {
+            color: #2c3e50; /* Warna biru gelap */
+        }
